@@ -17,3 +17,10 @@ rm - remove file
 help - read a manual page
 
 # 1.4 Forking and Cloning Reflection
+To fork a repo you first must find the repository you wish to make a copy for yourself. once this is found, click the box in the top right corner labeled “Fork”. This will create a new copy of the repo in your own GitHub account.
+
+Cloning a repo allows you to put the repo on your computer for editing. this is done in the command line on your computer. The first step is to copy the clone URL link on the GitHub website. Next open your terminal and determine what directory you are in. Once you are in the directory you want to clone the repo to enter the command “git clone COPIED URL”. After the command prompt appears again enter “ls”. You will see the folder with same name as the repo you cloned.
+
+Forking a repo is making a copy of an already created repo. This will allow collaborate with others on the same project.
+
+I didn't struggle setting up git and GitHub. While setting everything up, I realized I’m becoming more familiar with the command line and I’m feeling more confident.
