@@ -23,6 +23,7 @@ Cloning a repo allows you to put the repo on your computer for editing. this is 
 
 Forking a repo is making a copy of an already created repo. This will allow collaborate with others on the same project.
 
+<<<<<<< HEAD
 I didn't struggle setting up git and GitHub. While setting everything up, I realized I’m becoming more familiar with the command line and I’m feeling more confident.
 
 # 1.5 Tracking Changes
@@ -51,3 +52,6 @@ What is a pull request and how do you create and merge one?
 
 Why are pull requests preferred when working with teams?
   A pull request is preferred when working with teams because it creates a linkable page that allows others to review code together.
+=======
+I didn't struggle setting up git and GitHub. While setting everything up, I realized I’m becoming more familiar with the command line and I’m feeling more confident.
+>>>>>>> master
