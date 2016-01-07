@@ -23,7 +23,6 @@ Cloning a repo allows you to put the repo on your computer for editing. this is 
 
 Forking a repo is making a copy of an already created repo. This will allow collaborate with others on the same project.
 
-<<<<<<< HEAD
 I didn't struggle setting up git and GitHub. While setting everything up, I realized I’m becoming more familiar with the command line and I’m feeling more confident.
 
 # 1.5 Tracking Changes
@@ -44,14 +43,22 @@ What are the 3 stages of a git change and how do you move a file from one stage 
  The three stages of a git change are modified, added, commited. To move a modified file you use the “git add” command, to move that file to commit you use the “git commit” command in the terminal. 
 
 Write a handy cheatsheet of the commands you need to commit your changes?
-  git add - adds modified file to be staged for commit
-  git commit -m “commit message” - save the changes made to the branch  
+  Once file is updated and saved in the text editor use the following git commands to send the updated work to GitHub:
+·      git add
+·      git commit –m “Commit message.”
+·      git push origin feature-branch
+·      go to GitHub to accept pull request. Follow prompts on website
+Go back to command line and pull recent changes from remote repository. Use the following commands
+·      git checkout master
+·      git pull origin master
+Check git status to make sure everything is up to date with command: git status
+Delete feature branch using command: git branch –d feature-branch-name 
 
 What is a pull request and how do you create and merge one?
   A pull request is a way to merge code from a different branch into the master branch. You create a pull request in GitHub using the “Compare and pull request” button. This will bring you to a new screen where you need to verify the base branch and the compare branch (new branch), you should add a title and description in the boxes provided, then you click the “Create pull request” button. You merge a pull request by clicking the “merge pull request” button on the “Conversations” tab. Once this is clicked you will be prompted to “Confirm merge”.
 
 Why are pull requests preferred when working with teams?
   A pull request is preferred when working with teams because it creates a linkable page that allows others to review code together.
-=======
+
 I didn't struggle setting up git and GitHub. While setting everything up, I realized I’m becoming more familiar with the command line and I’m feeling more confident.
->>>>>>> master
+
