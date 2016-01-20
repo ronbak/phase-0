@@ -15,6 +15,11 @@ new_num = num.to_i + 1
 puts 'Your number ' + num + ' is good, but I think ' + new_num.to_s + ' is a little bigger and better!'
 
 =begin
+Release 4:
+Formatted Address - https://github.com/robertreith/phase-0/blob/master/week-4/address/my_solution.rb
+Math Methods - https://github.com/robertreith/phase-0/blob/master/week-4/math/my_solution.rb
+
+Release 6:
 1.How do you define a local variable?
 Local variables are nested inside of methods and can only be used in that method. Local 
 variable start with a lowercase letter or an underscore (_).
