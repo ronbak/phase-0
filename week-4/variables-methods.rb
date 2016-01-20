@@ -16,8 +16,8 @@ puts 'Your number ' + num + ' is good, but I think ' + new_num.to_s + ' is a lit
 
 =begin
 Release 4:
-Formatted Address - https://github.com/robertreith/phase-0/blob/master/week-4/address/my_solution.rb
-Math Methods - https://github.com/robertreith/phase-0/blob/master/week-4/math/my_solution.rb
+Return a Formatted Address - https://github.com/robertreith/phase-0/blob/master/week-4/address/my_solution.rb
+Defining Math Methods - https://github.com/robertreith/phase-0/blob/master/week-4/math/my_solution.rb
 
 Release 6:
 1.How do you define a local variable?
