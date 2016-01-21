@@ -1,6 +1,6 @@
 # Factorial
 
-# I worked on this challenge [with: Michael Wang ].
+# I worked on this challenge [with: Michael Wang].
 
 
 # Your Solution Below
