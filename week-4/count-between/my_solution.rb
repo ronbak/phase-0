@@ -16,17 +16,20 @@
 
 def count_between(list_of_integers, lower_bound, upper_bound)
  
-    if list_of_integers = []
-        return nil
-    end
-    
     count = 0
        
     list_of_integers.each do |integer|
         
-        if integer <= lower_bound && integer >= upper_bound
-            count = list_of_integers.lenght + 1
+        if integer >= lower_bound && integer <= upper_bound
+            count = count + 1
         end
     end
  return count
 end
+
+
+# input: A container with a set of numbers. A range with two numbers, a lower limit and upper limit
+# steps: When the container is empty the result should be 0
+#        When the container has numbers, see if they fit into the range.
+# 		 When the numbers are within the range count how many numbers there are 
+# output: Return how many numbers are in the container within the specified range
