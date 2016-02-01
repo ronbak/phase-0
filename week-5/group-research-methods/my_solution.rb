@@ -121,26 +121,38 @@ p my_family_pets_ages
 
 
 
-# Person 5 - Split Data
-def my_array_splitting_method(source)
-  source # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+# Person 5(Maeve Tierney) - Split Data
+
+def my_array_splitting_method(i_want_pets)
+  first_array=[]
+  second_array=[]
+  
+  first_array = i_want_pets.select{ |x| x.is_a? Integer}           
+
+  second_array = i_want_pets.select{ |x| x.is_a? String}
+
+  return Array[first_array, second_array]
+ 
 end
 
-def my_hash_splitting_method(source, age)
-  source # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+def my_hash_splitting_method(my_family_pets_ages, age)
+  young_dogs = {}
+  old_dogs = {}
+
+  young_dogs = my_family_pets_ages.select{ |name, age| age <= 4 }
+
+  old_dogs = my_family_pets_ages.select{ |name, age| age > 4 }
+
+  return dogs = [young_dogs.to_a, old_dogs.to_a]
+
 end
 
 # Identify and describe the Ruby method(s) you implemented.
-#
-#
-#
-
+# => The Ruby Methods that I implemented were splitting methods for an array and a hash. For both problems, i created separate new arrays and hashes to make sure i wouldn't permanently alter i_Want_pets and my_family_pets_ages. Then, for the array method, i iterated over I_want_pets using select and used the enumerable .is_a? to see if the object was a integer or a string. Then, I put the integers and the strings into separate arrays inside one big array and returned that. For the hash, I used a similar idea but I used select to iterate over the keys and values to see if the values were either <= 4 or > 4. Then i grouped the names and ages in new arrays inside one large array and returned that. 
 
 # Release 1: Identify and describe the Ruby method you implemented. Teach your
 # accountability group how to use the methods.
-#
-#
-#
+# => So the methods I used were .select, .is_a?, and .to_a. You probably already know that .to_a returns the object inside an array. .select is great because it will iterate over the array or hash and select the information you provide it in a code block or in pipes. .is_a? is an enumerable that you can use inside an iterator over an array, and you can use it to see if the object is a -- whatever you ask it. So i used it to see if the objects were integers or strings. 
 
 
 # Release 3: Reflect!
