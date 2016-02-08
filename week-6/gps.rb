@@ -18,9 +18,16 @@ def serving_size_calc(item_to_make, num_of_ingredients)
   #     error_counter += -1 # if its not in the library take 1 one
   #   end
   # end
+<<<<<<< HEAD
 
   # create error message stating item is not in library
     # raise ArgumentError.new("#{item_to_make} is not a valid input") if error_counter > 0
+
+=======
+
+  # create error message stating item is not in library
+    # raise ArgumentError.new("#{item_to_make} is not a valid input") if error_counter > 0
+>>>>>>> master
   serving_size = library[item_to_make]
    # = library.values_at(item_to_make)[0] # creates an array of the values in the hash
   remaining_ingredients = num_of_ingredients % serving_size # leftovers that can be used for something else
@@ -33,7 +40,14 @@ def serving_size_calc(item_to_make, num_of_ingredients)
   end
 
 #  def suggested_items(num)
+<<<<<<< HEAD
+#   remaining_ingredients.each do |key,value|
+#      value % serving_size 
+# end
+# p key
+=======
 #   serving_size.each {|key,value| value % serving_size p key}
+>>>>>>> master
 #  end
 
   # def suggested_items
@@ -51,6 +65,19 @@ p serving_size_calc("THIS IS AN ERROR", 5)
 
 #  Reflection
 # 1. What did you learn about making code readable by working on this challenge?
+<<<<<<< HEAD
+# I learned it can be challenging to look at working code and change it to make it more readable. Once I get past that
+# the final product of refactoring really help make the code easier to follow.
+
+# 2. Did you learn any new methods? What did you learn about them?
+# I learned the has_key? method allows you to search through a hash and return true if a specific key is present.
+
+# 3. What did you learn about accessing data in hashes? 
+# I learned there are many built in methods that allow you to access the data in a hash.
+
+# 4. What concepts were solidified when working through this challenge?
+# This challenge helped me better understand the need to refactor to make the code more readable.
+=======
 # Making the code more readable by refactoring is currently difficult for me because when I see working 
 # code I don’t want to break it. I learned that once you make the code more readable it will not only allow
 # you to understand the code better but for others to understand it better as well.
@@ -66,3 +93,4 @@ p serving_size_calc("THIS IS AN ERROR", 5)
 # 4. What concepts were solidified when working through this challenge?
 # Different aspects of hashes were solidified. I also realized that I need to stop overcomplicating the 
 # problem and work on readability and simplicity when coding.
+>>>>>>> master
