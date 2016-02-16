@@ -360,7 +360,7 @@ Tropical Pa  Hawaii
 
 
 Release 6: Your Own Schema
-![clueless schema](/clueless_schema.jpg)
+![clueless schema](/database-intro/clueless_schema.jpg)
 
 Release 7: Reflect
 1. What are databases for?
