@@ -9,6 +9,7 @@ Release 4: Refactor
 ![grocery list](/week-8/imgs/grocery-lists-items.jpg)
 
 Release 6: Reflect
+
 1. What is a one-to-one database?
 A one-to-one database is where two tables are only related by one item each. An example of this could be a driver license. A person has only one driver license and a driver license can only belong to one person.
 
