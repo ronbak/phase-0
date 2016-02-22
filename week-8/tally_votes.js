@@ -1,6 +1,6 @@
 // Tally Votes in JavaScript Pairing Challenge.
 
-// I worked on this challenge with:
+// I worked on this challenge with: FJ Collins
 // This challenge took me [#] hours.
 
 // These are the votes cast by each student. Do not alter these objects here.
@@ -235,11 +235,15 @@ console.log(officers)
 
 // __________________________________________
 // Reflection
+// 1. What did you learn about iterating over nested objects in JavaScript?
+// I learned that the for in loop is very useful for iterating over objects. This challenge has shown me that I need
+// to do more research on how bracket notation works.
 
+// 2. Were you able to find useful methods to help you with this?
+// In the initial solution there were no new methods used.
 
-
-
-
+// 3. What concepts were solidified in the process of working through this challenge?
+// During this challenge the idea of bracket notation started to become clear.
 
 // __________________________________________
 // Test Code:  Do not alter code below this line.
