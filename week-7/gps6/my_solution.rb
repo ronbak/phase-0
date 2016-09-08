@@ -63,7 +63,7 @@ class VirusPredictor
     print "#{@state} will lose #{number_of_deaths} people in this outbreak"
   end
   
-# Set the default speed value to 0. It looks for the range then adds a certian value to the speed based on the range. 
+# Set the default speed value to 0. It looks for the range then adds a certain value to the speed based on the range. 
 # This method returns a string.
 
   def speed_of_spread #in months
