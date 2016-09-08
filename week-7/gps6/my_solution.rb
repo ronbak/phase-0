@@ -11,7 +11,7 @@ require_relative 'state_data'
 
 class VirusPredictor
   
-# This method takes 3 arguements and stores the values of them as instance #variables.
+# This method takes 3 arguments and stores the values of them as instance #variables.
 
   def initialize(state_of_origin, population_density, population)
     @state = state_of_origin
@@ -19,7 +19,7 @@ class VirusPredictor
     @population_density = population_density
   end
   
-# Calls the predicted_deaths methods and speed_of_spread method using the #instance variables as arguements. 
+# Calls the predicted_deaths methods and speed_of_spread method using the #instance variables as arguments. 
 # It will return the speed_of_spread string
 
   def virus_effects
