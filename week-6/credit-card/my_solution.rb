@@ -8,7 +8,7 @@
 
 # Input: A credit card number
 # Output: Deterimation of cedit card is valid by returning true of false
-# Steps: Setup constuctor to determine if the infomation provide has the correct number of digits (16)
+# Steps: Setup constuctor to determine if the information provide has the correct number of digits (16)
 #   		IF number does not equal 16 digits return error stating "wrong number of digits"
 #        Define the first step to validate the card number
 #			double ever other digit starting with the first digit
