@@ -12,7 +12,7 @@ What does the HEAD^ argument mean?
  The HEAD^ command is used if you commit a file and decide you actually want to make changes to it. It will go back to the last commit.
 
 What are the 3 stages of a git change and how do you move a file from one stage to the other?
- The three stages of a git change are modified, added, commited. To move a modified file you use the “git add” command, to move that file to commit you use the “git commit” command in the terminal. 
+ The three stages of a git change are modified, added, committed. To move a modified file you use the “git add” command, to move that file to commit you use the “git commit” command in the terminal. 
 
 Write a handy cheatsheet of the commands you need to commit your changes?
   git add - adds modified file to be staged for commit
