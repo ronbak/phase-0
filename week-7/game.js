@@ -15,9 +15,9 @@
 // Declare a "bird" object with the properties of type and sound
 //
 // Create a method to compare the user input to property types to the objects
-//   IF user selects the type AND sound key for a dog, tell them they discribed a dog
-//   IF user selects the type AND sound key for a cat, tell them they discribed a cat
-//   IF user selects the type AND sound key for a bird, tell them they discribed a bird
+//   IF user selects the type AND sound key for a dog, tell them they described a dog
+//   IF user selects the type AND sound key for a cat, tell them they described a cat
+//   IF user selects the type AND sound key for a bird, tell them they described a bird
 //   IF user selects the wrong combination of type and sound keys, tell them to please try again.
 
 // Initial Code
